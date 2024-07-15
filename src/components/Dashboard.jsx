@@ -74,7 +74,7 @@ const Dashboard = () => {
   return (
     <div>
       <h1>Data Visualization Dashboard</h1>
-      <div className="grid-container">
+      <div className="grid-container mt-5">
         <Link to="/intensity-chart" className="grid-item text-decoration-none">
           <h4 style={{ color: "black" }}>Intensity Chart</h4>
           <Chart
